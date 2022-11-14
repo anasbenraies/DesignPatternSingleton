@@ -11,7 +11,7 @@ public class JournalisationSingleton {
     public static JournalisationSingleton getInstance(){
         return instance;
     }
-
+   //message to be displayed
     public void showMessage(){
         System.out.println("Hello World!");
     }
